@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Model</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Rokkitt:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+
+  <script>
+
+    tailwind.config = {
+        theme:{
+            fontFamily:{
+                sans: ['mulish' , 'sans-serif'],
+                mono: ['rokkitt' , 'monospace'],
+            },
+        },
+    };
+    
+
+   
+  </script>
+
+
+
+</head>
+<body>
+
+
+
+
+    <!-- main-container -->
+
+    <div class="bg-blue-300 min-h-screen flex items-center justify-center p-10">
+
+      <!-- card -->
+
+       <div class=" bg-white  rounded-2xl shadow-2xl flex items-center justify-center flex-col space-y-10 md:space-y-0  md:flex-row ">
+
+
+         <!-- left side -->
+
+         <div class="p-5">
+            <h1 class="text-5xl font-mono ">Login</h1>
+            <p class="font-light mt-2 text-gray-500 max-w-sm ">Login to your account to upload or download pictures , videos or music</p>
+            <input type="" class="mt-5 w-full p-4  border border-black border-dotted outline-none" placeholder="Enter Your Email Address" >
+          
+
+            <!-- button & forget -->
+
+            <div class=" mt-5 flex flex-col  md:flex-row  items-center justify-center   space-y-5 md:space-y-0 md:space-x-20  ">
+            <a href="#" class="text-blue-500 font-thin">Forget Password ?</a>
+           <button class="bg-blue-400  p-4 space-x-5 rounded-lg font-bold text-white w-full md:w-auto flex items-center justify-center shadow-sm  shadow-blue-300 hover:bg-blue-500 hover:shadow-lg hover:-translate-y-0.5 duration-200  ">
+            <p>Next</p>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-7 "
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#ffffff"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <line x1="13" y1="18" x2="19" y2="12" />
+                <line x1="13" y1="6" x2="19" y2="12" />
+              </svg>
+           </button>
+            
+           </div>
+
+           <!-- border -->
+
+           <div class=" border border-black border-dotted mt-10 "></div>
+           <h6 class="text-sm text-center mt-3 font-light">or log  in with</h6>
+
+          
+
+        <!-- button fb , google  -->
+
+         <div  class=" flex flex-col justify-center md:justify-around mt-5   space-y-5 md:flex-row md:space-y-0 md:space-x-10">
+            <button class="flex  items-center justify-center  border border-black border-dotted p-2 px-5 rounded-lg space-x-4  hover:shadow-lg hover:-translate-y-0.5  duration-200">
+               <img src="./images/facebook.png" class="w-9 " alt="">
+               <p>Facebook</p>
+            </button> 
+
+
+            <button class="flex  items-center justify-center  border border-black border-dotted p-2 px-5 rounded-lg space-x-4  hover:shadow-lg hover:-translate-y-0.5  duration-200">
+                <img src="./images/google.png" class="w-9 " alt="">
+                <p>Google</p>
+             </button> 
+ 
+
+           
+        </div>
+
+    </div>
+       
+
+        
+    
+        
+
+        
+        
+        
+        
+    <!-- right side -->
+
+
+       <div class="">
+        <img src="https://media.istockphoto.com/id/2052531938/photo/scenic-panorama-of-eiffel-tower-seine-river-and-pont-dlena-in-paris-france.webp?a=1&b=1&s=612x612&w=0&k=20&c=B9VB3nPhpiGTouzk4s_siUDJRt1CTu2uft_DciEEAOk=" class="w-[330px] h-[450px]  rounded-r-2xl hidden md:block" alt="">
+         <!-- <img src="./images/image.jpg" class="w-[430px]  rounded-r-2xl hidden md:block" alt=""> -->
+       </div>
+
+       
+       
+       
+       
+       
+       
+    </div>
+    
+    
+    
+    
+</div>
+    
+</body>
+</html>
